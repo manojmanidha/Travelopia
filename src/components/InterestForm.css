@@ -1,0 +1,116 @@
+/* src/components/InterestForm.css */
+
+.interest-form-container {
+    font-family: Arial, sans-serif;
+    background: url('https://www.thewowstyle.com/wp-content/uploads/2015/04/free-wallpaper-1.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .header-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .start-planning-button {
+    background-color: #f04e30;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .start-planning-button:hover {
+    background-color: #c03e27;
+  }
+  
+  .banner {
+    margin-top: 100px;
+    padding: 20px;
+    color: #f7fff8;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+  }
+  
+  .interest-form {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .interest-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .interest-form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .interest-form input,
+  .interest-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .interest-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .interest-form button:hover {
+    background-color: #0056b3;
+  }
+  
